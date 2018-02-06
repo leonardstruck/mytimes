@@ -1,5 +1,19 @@
 .header {
+  position: fixed;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  display:flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width:100%;
+  margin:0px;
+  left:0px;
+  padding:5px;
+  padding-left:20px;
+}
+
+#logo {
+  color: MediumAquamarine;
+  margin-left:10px;
 }
