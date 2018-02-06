@@ -4,16 +4,29 @@
   font-size: 14px;
   font-weight: bold;
   display:flex;
-  align-items: center;
   border-bottom: 1px solid black;
-  width:100%;
-  margin:0px;
+  justify-content: space-between;
   left:0px;
-  padding:5px;
-  padding-left:20px;
+  right:0px;
+  padding: 5px;
 }
 
 #logo {
+  display:inline-flex;
   color: MediumAquamarine;
-  margin-left:10px;
+  align-items: center;
+}
+
+#logo img {
+  margin-right: 10px;
+}
+
+.header nav {
+  flex-basis: auto;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header span {
+  margin-right:15px;
 }
