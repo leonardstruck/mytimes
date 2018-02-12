@@ -15,16 +15,22 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 150px;
   color: MediumAquamarine;
   margin-left: 10px;
   flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.logo span {
+  margin-left: 10px;
 }
 
 header nav {
   display: flex;
-  width: 300px;
   justify-content: space-around;
-  margin-right: 50px;
+}
+
+header nav span {
+  margin-right: 20px;
 }
