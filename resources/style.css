@@ -1,0 +1,30 @@
+header {
+  position: fixed;
+  width:100%;
+  left:0px;
+  border-bottom: 1px solid black;
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  color: MediumAquamarine;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+header nav {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  margin-right: 50px;
+}
