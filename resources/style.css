@@ -39,7 +39,7 @@ header nav span {
 
 /* Main Container */
 
-.container {
+.content {
   position: relative;
   display: flex;
   top: 75px;
