@@ -4,6 +4,7 @@ header {
   position: fixed;
   width:100%;
   left:0px;
+  top: 0px;
   border-bottom: 1px solid black;
   display: flex;
   font-family: Verdana;
@@ -12,6 +13,8 @@ header {
   justify-content: space-between;
   height: 70px;
   align-items: center;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -42,9 +45,15 @@ header nav span {
 .content {
   position: relative;
   display: flex;
+  justify-content: center;
   top: 75px;
 }
 
+.column {
+  margin-top: 30px;
+  margin-right: 30px;
+
+}
 .column.large {
   width: 630px;
 }
@@ -57,9 +66,70 @@ header nav span {
   width: 240px;
 }
 
+.img-content {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  min-height: 300px;
+  align-items: center;
+  text-align: center;
+}
 
-/* Borders for flexting */
+.mainstory .img-content {
+  font-size: 40px !important;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.story {
+  flex-basis: 300px;
+}
+
+.narration {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/* Story Images */
+.tunasteak {
+  background-image: url(./images/img-story-main.png);
+}
+
+.cats {
+  background-image: url(./images/img-story-1.png);
+}
+
+.earth {
+  background-image: url(./images/img-story-2.png);
+}
+
+.cameras {
+  background-image: url(./images/img-story-3.png);
+}
+
+
+/* News Bites */
+
+.news-bites {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.bite {
+
+}
+
+/* Borders for flexting
 
 div {
   border: solid black 1px;
 }
+*/
